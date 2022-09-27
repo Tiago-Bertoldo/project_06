@@ -1,5 +1,5 @@
+// Module pour manipuler des fichier dans l'application)
 const multer = require('multer')
-
 const MIME_TYPES = {
     'image/jpg' : 'jpg',
     'image/jpeg' : 'jpeg',

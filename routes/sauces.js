@@ -11,5 +11,6 @@ router.get('/sauces'  , auth,  souceCtrl.findAllSouces)
 router.get('/sauces/:id' , auth , souceCtrl.findOneSauces)
 router.put('/sauces/:id' , auth , multer , souceCtrl.changeSauces)
 router.delete('/sauces/:id' , auth , souceCtrl.deleteSauce)
+router.post('/sauces/:id/like' , auth , souceCtrl.likeSauces)
 
 module.exports = router;

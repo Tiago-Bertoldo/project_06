@@ -1,4 +1,5 @@
 const mongoose =  require('mongoose');
+// Cree le exclusivite pour le utilisateur
 const uniqueValidator = require('mongoose-unique-validator')
 
 const userSchema = mongoose.Schema({

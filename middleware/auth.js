@@ -1,5 +1,5 @@
-const jwt = require('jsonwebtoken')
-
+// Module pour creer le token necessaire pour la securite
+const jwt = require('jsonwebtoken');
 module.exports = (req ,res ,next) => {
     try {
        const token = req.headers.authorization.split(' ')[1];
