@@ -11,7 +11,7 @@ const sauceRoutes = require('./routes/sauces')
 app.use(express.json());
 
 // CONFIG BASE DE DONNÉE
-mongoose.connect('mongodb+srv://sadberto_project:102030@cluster0.3o3iyhn.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://sadbertoldo:10203040@cluster0.0bvsqvh.mongodb.net/?retryWrites=true&w=majority',
 { useNewUrlParser: true,
   useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
